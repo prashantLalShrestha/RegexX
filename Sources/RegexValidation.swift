@@ -37,4 +37,6 @@ public enum RegexValidation: String {
     
     case accountNumber_24Digit = "[PK][0-9A-Za-z]{23}"
     
+    case cardNumber_12 = "^[a-zA-Z][0-9]{12}$"
+    
 }
